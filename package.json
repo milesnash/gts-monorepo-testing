@@ -1,0 +1,15 @@
+{
+  "name": "gts-monorepo-testing",
+  "packageManager": "yarn@3.2.3",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "yarn workspaces foreach run lint",
+    "fix": "yarn workspaces foreach run fix"
+  },
+  "devDependencies": {
+    "gts": "https://github.com/milesnash/gts#support-workspaces-and-monorepos"
+  }
+}
