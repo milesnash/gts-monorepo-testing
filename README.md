@@ -15,3 +15,10 @@ yarn lint
 yarn fix
 yarn lint
 ```
+
+Feel free to try these too:
+
+```bash
+yarn build
+yarn clean
+```

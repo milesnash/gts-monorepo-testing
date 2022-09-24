@@ -6,6 +6,8 @@
     "packages/*"
   ],
   "scripts": {
+    "clean": "yarn workspaces foreach run clean",
+    "compile": "yarn workspaces foreach run compile",
     "lint": "yarn workspaces foreach run lint",
     "fix": "yarn workspaces foreach run fix"
   },
